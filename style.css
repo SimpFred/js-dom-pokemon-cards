@@ -25,6 +25,10 @@ h2 {
   text-align: center;
 }
 
+li {
+  list-style: none;
+}
+
 .cards {
   display: grid;
   grid-template-columns: repeat(auto-fill, 375px);
@@ -57,6 +61,10 @@ h2 {
   padding: 1rem;
 
   border-radius: 5px;
+}
+
+.card--text li {
+  margin: 0.5rem;
 }
 
 .card--img {
